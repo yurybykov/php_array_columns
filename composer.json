@@ -1,0 +1,24 @@
+{
+    "name": "yurybykov/array_columns",
+    "description": "A PHP function to get columns from an array.",
+    "keywords": ["php", "array", "column"],
+    "homepage": "https://github.com/yurybykov/php_array_columns",
+    "license": "Unlicense",
+    "authors": [
+        {"name": "Yury Bykov", "email": "y.bykov@just-systems.ru"}
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:yurybykov/php_array_columns.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "files": [
+            "src/array_columns.php"
+        ]
+    }
+}
